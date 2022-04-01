@@ -1,0 +1,51 @@
+
+
+PUN:
+name: M_0       type: Pmos       W= 3       L= 3       W/L= 1
+source: Vdd    
+drain: a_inv    M_1_drain    
+gate: a    
+body: Vdd    
+
+name: M_1       type: Nmos       W= 6       L= 3       W/L= 2
+source: gnd    
+drain: a_inv    M_0_drain    
+gate: a    
+body: gnd    
+
+name: M_2       type: Pmos       W= 3       L= 3       W/L= 1
+source: Vdd    
+drain: b_inv    M_3_drain    
+gate: b    
+body: Vdd    
+
+name: M_3       type: Nmos       W= 6       L= 3       W/L= 2
+source: gnd    
+drain: b_inv    M_2_drain    
+gate: b    
+body: gnd    
+
+name: M_4       type: Pmos       W= 3       L= 3       W/L= 1
+source: Vdd    
+drain: Y    
+gate: a_inv    
+body: Vdd    
+
+name: M_5       type: Pmos       W= 3       L= 3       W/L= 1
+source: Vdd    
+drain: Y    
+gate: b_inv    
+body: Vdd    
+
+name: M_6       type: Nmos       W= 12       L= 3       W/L= 4
+source: M_7_drain    
+drain: Y    
+gate: a_inv    
+body: M_7_drain    
+
+name: M_7       type: Nmos       W= 12       L= 3       W/L= 4
+source: gnd    
+drain: M_6_src    
+gate: b_inv    
+body: gnd    
+

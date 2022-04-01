@@ -1,0 +1,9 @@
+﻿  Micro_Project.cpp
+F:\AUC\Micro\Project\Micro_Project\Micro_Project\Micro_Project.cpp(38,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Micro\Project\Micro_Project\Micro_Project\Micro_Project.cpp(107,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Micro\Project\Micro_Project\Micro_Project\Micro_Project.cpp(144,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Micro\Project\Micro_Project\Micro_Project\Micro_Project.cpp(148,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Micro\Project\Micro_Project\Micro_Project\Micro_Project.cpp(164,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Micro\Project\Micro_Project\Micro_Project\Micro_Project.cpp(186,23): warning C4018: '<': signed/unsigned mismatch
+F:\AUC\Micro\Project\Micro_Project\Micro_Project\Micro_Project.cpp(198,23): warning C4018: '<': signed/unsigned mismatch
+  Micro_Project.vcxproj -> F:\AUC\Micro\Project\Micro_Project\Debug\Micro_Project.exe
